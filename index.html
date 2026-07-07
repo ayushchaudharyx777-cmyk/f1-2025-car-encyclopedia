@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>F1 2025 — Enhanced Car Encyclopedia</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-bg"></div><div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="eyebrow">2025 Season · Enhanced Technical Encyclopedia</div>
+    <h1 class="hero-title">F1 2025<br><span class="dim">ALL TEAMS</span></h1>
+    <p class="hero-sub">10 teams. 20 drivers. Animated cars with live telemetry, brake glow, weather modes, pit stop simulation — Red Bull, Ferrari, McLaren &amp; more.</p>
+    <div class="hero-tags">
+      <span class="htag">🌧️ Weather Modes</span>
+      <span class="htag">🔥 Brake Glow</span>
+      <span class="htag">🔧 Pit Stop Sim</span>
+      <span class="htag">⚡ Live Telemetry</span>
+      <span class="htag">🎯 Animated Wheels</span>
+    </div>
+    <button class="hero-btn" onclick="document.getElementById('facts').scrollIntoView({behavior:'smooth'})">Explore All Teams ↓</button>
+  </div>
+  <div class="scroll-wrap"><span>SCROLL</span><div class="scroll-line"></div></div>
+</section>
+
+<div class="season-banner" id="facts">
+  <h2>2025 Season Facts</h2>
+  <div class="season-grid">
+    <div class="scard"><div class="scard-icon">🏆</div><div class="scard-title">WDC Winner</div><div class="scard-desc">Lando Norris — McLaren. First career title.</div></div>
+    <div class="scard"><div class="scard-icon">🏗️</div><div class="scard-title">WCC Winner</div><div class="scard-desc">McLaren back-to-back. Norris + Piastri dominant.</div></div>
+    <div class="scard"><div class="scard-icon">⚙️</div><div class="scard-title">4 Engine Suppliers</div><div class="scard-desc">Honda RBPT, Ferrari, Mercedes, Renault. Renault final year.</div></div>
+    <div class="scard"><div class="scard-icon">📐</div><div class="scard-title">Ground Effect Cars</div><div class="scard-desc">Underfloor tunnels, Venturi channels, DRS system.</div></div>
+    <div class="scard"><div class="scard-icon">🔋</div><div class="scard-title">ERS + MGU-H</div><div class="scard-desc">Final MGU-H season. Removed for 2026 regs.</div></div>
+    <div class="scard"><div class="scard-icon">💨</div><div class="scard-title">DRS Active</div><div class="scard-desc">Last DRS season. Active aero replaces in 2026.</div></div>
+  </div>
+</div>
+
+<nav class="sticky-nav"><div class="nav-inner" id="teamNav"></div></nav>
+<div id="teams"></div>
+<div class="footer">F1 2025 Enhanced Encyclopedia · Animated Cars · Weather Modes · Pit Stop Sim · GitHub Project</div>
+
+<script src="script.js"></script>
+</body>
+</html>
