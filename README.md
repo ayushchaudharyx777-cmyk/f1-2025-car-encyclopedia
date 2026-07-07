@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  An animated, interactive F1 2025 season encyclopedia — all 10 teams, live telemetry simulation,
+  An animated, interactive F1 2025 season encyclopedia — all 10 teams, 3D car animations, live telemetry simulation,
   pit stop sequences, brake glow, rain mode, and DRS toggle, built with pure HTML/CSS/JS.
 </p>
 
@@ -16,8 +16,8 @@
 
 ## ✨ Features
 
-- 🎮 **3D animated cars** — hover-tilt, continuous idle float animation per team
-- 📡 **Live telemetry simulation** — speed, RPM, gear, ERS, brake temp, tyre wear
+- 🎮 **3D animated cars** — perspective-based hover-tilt with continuous idle float animation per team
+- 📡 **Live telemetry simulation** — speed, RPM, gear, ERS, brake temp, tyre wear updating in real time
 - 🔧 **Pit stop simulation** — full multi-stage sequence with live countdown timer
 - 🌧️ **Weather modes** — toggleable rain effect per car
 - 🔥 **Brake glow effect** — dynamic glow on braking state
@@ -37,19 +37,28 @@ f1-2025-car-encyclopedia/
 
 ## 🚀 Run Locally
 
-Clone and open `index.html` directly in a browser, or use VS Code's **Live Server** extension for hot reload:
-
 ```bash
-git clone https://github.com/YOUR-USERNAME/f1-2025-car-encyclopedia.git
+git clone https://github.com/ayushchaudharyx777-cmyk/f1-2025-car-encyclopedia.git
 cd f1-2025-car-encyclopedia
 ```
 
-Then just open `index.html`.
+Then just open `index.html` directly in a browser, or use VS Code's **Live Server** extension for hot reload.
 
 ## 🌐 Live Demo
 
-Enable **GitHub Pages** (Settings → Pages → Branch: `main` → Save) to get a free live link at:
-`https://YOUR-USERNAME.github.io/f1-2025-car-encyclopedia/`
+Once GitHub Pages is enabled (Settings → Pages → Branch: `main` → Save), the live link will be:
+
+**https://ayushchaudharyx777-cmyk.github.io/f1-2025-car-encyclopedia/**
+
+## 🔮 Future Aspects / Roadmap
+
+- 🏁 Real-time race data integration via a live F1 API (lap times, positions, sector splits)
+- 🖼️ True 3D car models using Three.js instead of CSS perspective tricks
+- 🎧 Engine sound effects synced to throttle/telemetry state
+- 📊 Historical season comparison (2023 vs 2024 vs 2025 car specs)
+- 🌓 Light/Dark theme toggle
+- 🌍 Circuit map view with track layout per Grand Prix
+- 📱 PWA support for offline access on mobile
 
 ## 📄 License
 
